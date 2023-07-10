@@ -8,6 +8,9 @@ from .models import Showing
 def home(request):
     return render(request, 'home.html')
 
+def about(request):
+    return render(request, 'about.html')
+
 def showings_index(request):
     showings = Showing.objects.all()
     return render(request, 'showings/index.html', {

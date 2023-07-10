@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: linear-gradient(to bottom, white, rgb(247, 226, 134))
+  }
+  
+  main {
+    flex: 1 0 auto;
+  }
+  
+  footer.page-footer {
+    padding-top: 0;
+    text-align: right;
+  }
+
+  nav, #footer, .btn, .datepicker-date-display, .datepicker-table td.is-selected {
+    background-color: rgb(68, 141, 68);
+  }
+
+  .green {
+    color: rgb(68, 141, 68);
+  }
+
+  .datepicker-cancel, .datepicker-done {
+    color: rgb(68, 141, 68);
+  }
+
+  nav .brand-logo.left {
+    padding-right: 13px;
+  }
+
+  .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: rgb(68, 141, 68);
+  }
+
+  img {
+    border-radius: 25px;
+  }
+  
+  .img-container {
+    display: flex;
+    justify-content: center;
+  }
