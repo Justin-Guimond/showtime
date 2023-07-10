@@ -11,8 +11,8 @@ class StatusChoices(models.TextChoices):
 
 class Showing(models.Model):
     address = models.CharField(max_length=100)
-    preferred_time = models.DateTimeField()
-    other_availability = models.DateTimeField()
+    preferred_time = models.CharField(max_length=100)
+    other_availability = models.CharField(max_length=100)
     status = models.CharField(max_length=15, choices=StatusChoices.choices)
     notes = models.TextField()
 
