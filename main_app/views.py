@@ -12,7 +12,8 @@ def about(request):
     return render(request, 'about.html')
 
 def showings_index(request):
-    showings = Showing.objects.all()
+    # showings = Showing.objects.all()
+    showings = Showing.objects.filter(user=request.user)
     return render(request, 'showings/index.html', {
         'showings' : showings
     })
@@ -25,7 +26,7 @@ def showings_detail(request, showing_id):
 
 class ShowingCreate(CreateView):
     model = Showing
-    fields = '__all__'
+    fields = ['address', 'preferred_time', 'other_availability', 'status', 'notes']
 
     def form_valid(self, form):
         # self.request.user is the logged in user
@@ -34,7 +35,7 @@ class ShowingCreate(CreateView):
     
 class ShowingUpdate(UpdateView):
     model = Showing
-    fields = '__all__'
+    fields = ['address', 'preferred_time', 'other_availability', 'status', 'notes']
 
 class ShowingDelete(DeleteView):
     model = Showing

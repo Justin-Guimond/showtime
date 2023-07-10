@@ -2,7 +2,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background: linear-gradient(to bottom, white, rgb(247, 226, 134))
+    background: linear-gradient(to bottom, white, rgb(135, 194, 252))
   }
   
   main {
@@ -15,15 +15,15 @@ body {
   }
 
   nav, #footer, .btn, .datepicker-date-display, .datepicker-table td.is-selected {
-    background-color: rgb(68, 141, 68);
+    background-color: rgb(29, 72, 246);
   }
 
   .green {
-    color: rgb(68, 141, 68);
+    color: rgb(29, 72, 246);
   }
 
   .datepicker-cancel, .datepicker-done {
-    color: rgb(68, 141, 68);
+    color: rgb(29, 72, 246);
   }
 
   nav .brand-logo.left {
@@ -31,7 +31,7 @@ body {
   }
 
   .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
-    color: rgb(68, 141, 68);
+    color: rgb(29, 72, 246);
   }
 
   img {
