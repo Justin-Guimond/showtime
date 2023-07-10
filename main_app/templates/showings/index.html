@@ -1,6 +1,21 @@
 {% extends 'base.html' %}
+
 {% block content %}
 
 <h1>Showing List</h1>
+
+{% for mountain in mountains %}
+    <a href="{% url 'detail' showing.id %}">
+        <div class="card">
+            <div class="card-content">
+                <span class="card-title" >{{ showing.address }}</span>
+                <p>Preferred Date/Time: {{ showing.preferred_time }}</p>
+                <p>Other Availability: {{ showing.other_availability }}</p>
+                <p>Listing Status: {{ showing.status }}'</p>
+                <p>Notes: {{ showing.notes }}'</p>
+            </div>
+        </div>
+    </a>
+{% endfor %}
 
 {% endblock %}

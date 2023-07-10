@@ -1,6 +1,5 @@
 from django.db import models
-# review code below
-# from django.urls import reverse
+from django.urls import reverse
 
 
 # Create your models here.
@@ -18,8 +17,8 @@ class Showing(models.Model):
     notes = models.TextField()
 
 # review code below
-    # def __str__(self):
-    #     return f'{self.name} ({self.id})'
+    def __str__(self):
+        return f'{self.address} ({self.id})'
 
-    # def get_absolute_url(self):
-    #     return reverse('detail', kwargs={'showing_id': self.id})
+    def get_absolute_url(self):
+        return reverse('detail', kwargs={'showing_id': self.id})
