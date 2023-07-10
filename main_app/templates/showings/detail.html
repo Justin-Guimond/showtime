@@ -8,8 +8,12 @@
         <span class="card-title" >{{ showing.address }}</span>
         <p>Preferred Date/Time: {{ showing.preferred_time }}</p>
         <p>Other Availability: {{ showing.other_availability }}</p>
-        <p>Listing Status: {{ showing.status }}'</p>
-        <p>Notes: {{ showing.notes }}'</p>
+        <p>Listing Status: {{ showing.status }}</p>
+        <p>Notes: {{ showing.notes }}</p>
+    </div>
+    <div class="card-action">
+        <a href="{% url 'showings_update' showing.id %}">Edit</a>
+        <a href="{% url 'showings_delete' showing.id %}">Delete</a>
     </div>
 </div>
 

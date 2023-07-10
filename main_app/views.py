@@ -28,5 +28,11 @@ class ShowingCreate(CreateView):
         # self.request.user is the logged in user
         form.instance.user = self.request.user
         return super().form_valid(form)
-
     
+class ShowingUpdate(UpdateView):
+    model = Showing
+    fields = '__all__'
+
+class ShowingDelete(DeleteView):
+    model = Showing
+    success_url = '/showings'    
