@@ -21,7 +21,7 @@ class Showing(models.Model):
 
 # review code below
     def __str__(self):
-        return f'{self.address} ({self.id})'
+        return f'{self.address} {self.user} ({self.id})'
 
     def get_absolute_url(self):
         return reverse('detail', kwargs={'showing_id': self.id})
