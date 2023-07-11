@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-y)fzrz93hor^30ox$b!u+3uhha7-kw8h6krco!n6czy(egnf-j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'git.heroku.com/jkshowtime.git']
+ALLOWED_HOSTS = ['localhost', 'jkshowtime-d3995c3eaf9b.herokuapp.com']
 
 
 # Application definition
