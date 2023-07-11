@@ -4,7 +4,8 @@ body {
     min-height: 100vh;
     flex-direction: column;
     background: white;
-    background: linear-gradient(to bottom, white 50%, rgb(65, 160, 160))
+    background: linear-gradient(to bottom, white 50%, rgb(65, 160, 160));
+    color: rgb(89, 89, 89);
 
   }
   
@@ -25,7 +26,7 @@ body {
     color: rgb(65, 160, 160);
   }
 
-  .datepicker-cancel, .datepicker-done, a {
+  .datepicker-cancel, .datepicker-done {
     color: rgb(65, 160, 160);
   }
 
@@ -67,7 +68,7 @@ body {
 
   h1 {
     text-shadow: 8px 8px 16px rgba(65, 160, 160, 0.4);
-    color: black;
+    color: rgb(54, 54, 54);
     font-weight: 700;
     font-family: cursive;
     margin-bottom: 5%;
@@ -75,4 +76,8 @@ body {
 
   p {
     margin-top: 10%;
+  }
+
+  a {
+    color: rgb(89, 89, 89);
   }

@@ -11,7 +11,7 @@ class StatusChoices(models.TextChoices):
     pending = 'pending', _('Pending')
 
 class Showing(models.Model):
-    address = models.CharField(max_length=100)
+    address = models.CharField(max_length=100, help_text='(Street, City, State, Zip)')
     preferred_time = models.CharField(max_length=100)
     other_availability = models.CharField(max_length=100)
     status = models.CharField(max_length=15, choices=StatusChoices.choices)
