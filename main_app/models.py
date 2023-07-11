@@ -17,7 +17,7 @@ class Showing(models.Model):
     status = models.CharField(max_length=15, choices=StatusChoices.choices)
     notes = models.TextField()
         # add user_id FK column
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
 
 # review code below
     def __str__(self):

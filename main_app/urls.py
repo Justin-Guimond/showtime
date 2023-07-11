@@ -9,4 +9,5 @@ urlpatterns = [
     path('showings/create/', views.ShowingCreate.as_view(), name='showings_create'),
     path('showings/<int:pk>/update/', views.ShowingUpdate.as_view(), name='showings_update'),
     path('showings/<int:pk>/delete/', views.ShowingDelete.as_view(), name='showings_delete'),
+    path('accounts/signup/', views.signup, name='signup'),
 ]
