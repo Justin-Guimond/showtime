@@ -4,7 +4,7 @@ body {
     min-height: 100vh;
     flex-direction: column;
     background: white;
-    background: linear-gradient(to bottom, white 50%, rgb(65, 160, 160));
+    background: linear-gradient(to bottom, white 66%, rgb(65, 160, 160));
     color: rgb(89, 89, 89);
 
   }
