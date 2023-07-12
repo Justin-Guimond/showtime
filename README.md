@@ -6,7 +6,7 @@
 
 #### Technologies Used: Python, Django, postgreSQL, HTML, CSS
 
-## Link to live site: https://jkshowtime-d3995c3eaf9b.herokuapp.com/
+## Link to live site: #### https://jkshowtime-d3995c3eaf9b.herokuapp.com/
 
 #### (Please do not delete any data) 
 
