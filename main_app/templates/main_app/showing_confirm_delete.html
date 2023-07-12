@@ -3,7 +3,7 @@
 {% block content %}
   <h1>Delete Showing</h1>
 
-  <h4>Are you sure you want to delete <span class="green-text">{{ object.address }}</span>?</h4>
+  <p>Are you sure you want to delete <span class="green-text">{{ object.address }}</span>?</p>
 
   <form action="" method="POST">
     {% csrf_token %}
