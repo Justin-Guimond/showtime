@@ -19,7 +19,6 @@ class Showing(models.Model):
         # add user_id FK column
     user = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
 
-# review code below
     def __str__(self):
         return f'{self.address} {self.user} ({self.id})'
 
