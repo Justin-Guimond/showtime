@@ -2,7 +2,7 @@
 
 ## Summary
 
-#### As Realtors, we know days can be busy and chaotic. Clients will often request to tour properties without providing a full address and a time they'd like to see it. This has proven to be inefficient and a roadblock to the best possible homebuying experience. Have no fear - ShowTime provides a structured form that asks clients for all of the necessary information and organizes showings. It's ShowTime, baby!
+#### Realtors know days can be busy and chaotic. Clients will often request to tour properties without providing a full address and a time they'd like to see it. This has proven to be inefficient and a roadblock to the best possible homebuying experience. Have no fear - ShowTime provides a structured form that asks clients for all of the necessary information and organizes showings. It's ShowTime, baby!
 
 #### Technologies Used: Python, Django, postgreSQL, HTML, CSS
 
