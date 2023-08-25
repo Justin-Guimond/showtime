@@ -6,10 +6,7 @@
 
 #### Technologies Used: Python, Django, postgreSQL, HTML, CSS
 
-## Link to live site: 
-#### https://jkshowtime-d3995c3eaf9b.herokuapp.com/
-
-#### (Please do not delete any data) 
+#### Link to live site: (Please do not delete any data) https://jkshowtime-d3995c3eaf9b.herokuapp.com/
 
 ## Future Improvements
 
@@ -20,3 +17,10 @@
 #### - Break down showings into categories. 1. Active 2. Pending 3. Completed 4.Denied
 
 #### - Integrate an API that connects the property to the actual house listing and utilizes the photo
+
+## Photos
+![ShowTime Home](./static/images/showTime-home.png)
+![ShowTime About](./static/images/showTime-about.png)
+![ShowTime Sign Up](./static/images/showTime-signUp.png)
+![ShowTime Add Showing](./static/images/showTime-addShowing.png)
+![ShowTime My Showings](./static/images/showTime-myShowings.png)
