@@ -19,8 +19,8 @@
 #### - Integrate an API that connects the property to the actual house listing and utilizes the photo
 
 ## Photos
-![ShowTime Home](./static/images/showTime-home.png)
-![ShowTime About](./static/images/showTime-about.png)
-![ShowTime Sign Up](./static/images/showTime-signUp.png)
-![ShowTime Add Showing](./static/images/showTime-addShowing.png)
-![ShowTime My Showings](./static/images/showTime-myShowings.png)
+![ShowTime Home](./main_app/static/images/showTime-home.png)
+![ShowTime About](./main_app/static/images/showTime-about.png)
+![ShowTime Sign Up](./main_app/static/images/showTime-signUp.png)
+![ShowTime Add Showing](./main_app/static/images/showTime-addShowing.png)
+![ShowTime My Showings](./main_app/static/images/showTime-myShowings.png)
