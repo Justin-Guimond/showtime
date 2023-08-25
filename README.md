@@ -4,9 +4,9 @@
 
 #### Realtors know days can be busy and chaotic. Clients will often request to tour properties without providing a full address and a time they'd like to see it. This has proven to be inefficient and a roadblock to the best possible homebuying experience. Have no fear - ShowTime provides a structured form that asks clients for all of the necessary information and organizes showings. It's ShowTime, baby!
 
-#### Technologies Used: Python, Django, postgreSQL, HTML, CSS
+#### Technologies Used: Python, Django, postgreSQL, HTML, CSS/Materialize
 
-#### Link to live site: (Please do not delete any data) https://jkshowtime-d3995c3eaf9b.herokuapp.com/
+#### Live Link: (Please do not delete any data) https://jkshowtime-d3995c3eaf9b.herokuapp.com/
 
 ## Future Improvements
 
